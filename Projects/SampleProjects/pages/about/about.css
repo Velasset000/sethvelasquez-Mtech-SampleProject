@@ -1,7 +1,30 @@
-head{
-    color: blue;
+html{
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
 }
+
    h1{
-    color: blue;
+    color: white;
     size: 25px;
+    text-align: center;
    }
+#navBar {
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 10px;
+    background-color: gray;
+    margin-right: 15px;
+}
+.navButton {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+#backGround {
+    background-color: gray;
+    width: 1300px;
+    margin-left: 200px;
+    height: 1000px;
+}
