@@ -27,8 +27,33 @@ a {
 }
 #backGround {
     background-color: gray;
-    width: 1300px;
+    width: 700px;
     margin-left: 200px;
     margin-right: none;
     height: 1000px;
+    float: left;
+}
+#moreInfo {
+    background-color: gray;
+    width: 247px;
+    height: 947px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+#moreInfo ul {
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    border: solid black 2px;
+    height: 205px;
+    list-style-type: none;
+}
+#moreInfo ul li {
+    padding: 10px;
+    text-align: center;
+}
+#moreInfo p {
+    text-align: center;
+    margin-top: 30px;
 }
